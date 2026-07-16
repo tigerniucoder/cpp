@@ -1,5 +1,5 @@
 # cpp
-# testing
+# testing UDP server
 on 2nd termeinal
 
 $ nc -u 127.0.0/1 5000 | cat 
@@ -8,7 +8,13 @@ $ echo "hello" | nc -u 127.0.0.1 5000
 ACK
 ----------------
 ./a.out
--------------------
+-------------------a
+test tcp server
+
+$ nc 127.0.0.1 5000
+
+then type message
+
 lamda func
 Meaning:
 
